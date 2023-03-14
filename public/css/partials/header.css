@@ -1,0 +1,45 @@
+header {
+    background-color: #3CA2A2;
+    padding: 18px 12px 8px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+/* ocultando a lista do menu + o título */
+header nav ul, header h1 {
+    display: none;
+}
+
+/* Atribuindo um tamanho padrão para os icons */
+header nav img, .icons {
+    width: 25px;
+}
+
+.icons {
+    padding: 0 0 11px;
+}
+
+.cart {
+    margin-left: 6px;
+}
+
+
+/* atribuindo um tamanho para o logo */
+.logo {
+    width: 100px; 
+    margin: -5px 16px 0;
+}
+
+/* customizando a barra de pesquisa */
+header input {
+    width: 80px;
+    height: 27px;
+    border-radius: 14px;
+    font-size: 10px;
+    padding: 4px;
+    margin-right: 6px;
+    border: none;
+}
+
+header {
+    display: flex;
+}

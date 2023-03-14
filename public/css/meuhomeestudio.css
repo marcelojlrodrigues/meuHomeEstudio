@@ -1,0 +1,180 @@
+/* adiciona a cor de fundo ao site */
+
+body {
+    background-color: #DFECE6;
+}
+
+/* lkasjfd */
+.promocao div {
+   
+    padding-left: 12px;
+    margin-top: -6px;
+
+}
+/* tamanho da imagem da promcao */
+.promocao img {
+    width: 146px;
+    border-radius: 7px;
+}
+
+/* tamanho do titulo da promocao */
+.promocao h2 {
+    font-size: 16px;
+    width: 120px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #215A6D;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+/* espaçamento interno da seção */
+.promocao {
+    padding: 19px 28px 0;
+    display: flex;
+    align-items: center;
+}
+
+.promocao span {
+    background-color: #215A6D;
+    padding: 11px 8px;
+    color: #DFECE6;
+    border-radius: 18px;
+    font-weight: bolder;
+    font-size: 14px;
+}
+/* Configurações seção de destaques */
+
+.destaques h2 {
+    text-align: center;
+    font-size: 16px;
+    color: #215A6D;
+    font-weight: 900;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin: 14px 0;
+}
+
+/* destaque - categorias */
+.destaques {
+    justify-content: center;
+    
+}
+
+.destaques > div {
+    background-color:#3CA2A2;
+    padding: 10px;
+    border-radius: 10px;
+}
+.destaques ul {
+    display: flex;
+    list-style: none;
+}
+
+.destaques img{
+    width: 33px;
+}
+
+.destaques span {
+    font-size: 10px;
+}
+
+.destaques li{
+    text-align: center;
+}
+.destaques li:hover {
+    border: solid;
+    border-width: 1px;
+    background-color: #7ad4d4;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* configuração produtos Destaques */
+
+.produtosDestaque div{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.produtosDestaque .icon {
+    width: 13px;
+}
+
+.produtosDestaque .productPhoto {
+    width: 60px;
+    height: 60px;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.produtosDestaque h3 {
+    font-size: 14px;
+    margin: 10px 0 8px;
+    text-align: center;
+    background-color: #215A6D;
+    color: #DFECE6;
+    border-radius: 8px;   
+}
+
+.produtosDestaque h4 {
+    font-size: 12px;
+    margin: 0 0 6px;
+}
+
+.produtosDestaque article div {
+    max-width: 800px;
+    margin: 0 auto; 
+    
+}
+
+.produtosDestaque article {
+    border: solid;
+    border-width: 0.1rem;
+    border-color:#3CA2A2;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 0 3px;
+}
+
+.produtosDestaque article img{
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+.containerIcons .icon {
+    background-color:#3CA2A2;
+    padding: 3px;
+    border-radius: 2px;
+    width: 18px;
+
+}
+
+.arrowLeft {
+    background-color:#3CA2A2;
+    margin-right: 20px;
+    padding: 3px;
+    border-radius: 2px;
+}
+.arrowRight {
+    background-color:#3CA2A2;
+    margin-left: 12px;
+    padding: 3px;
+    border-radius: 2px;
+}
+
+.containerSpan{
+    text-align: right;
+    background-color: azure;
+}
+
+.produtosDestaque span {
+    
+    color:#215A6D;
+    margin: 4px;
+    background-color: #7ad4d4;
+    display: inline-block;
+}
